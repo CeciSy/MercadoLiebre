@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Bienvenid@s a MercadoLiebre</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <header>
+            <div class="contlog">
+                <img class="logo" src="/images/logo-mercado-liebre.svg">
+            </div>
+            <div class="bb">             
+                <div class="bb"><p class="whitebackground descripcionbb">Buscar productos  <i class="fas fa-search"></i> </p></div>
+            </div>
+                
+            <div class="descripcioncct">
+                Compra en cuotas y sin tarjeta de credito
+                <i class="fas fa-hand-holding-usd"></i>
+            </div>
+            <nav class="contnav descripciones">
+                <br>
+                <div class="barras">
+                <p class="ofertasymas descripciones">
+                    <div class="barra1">
+                    <a class="descripcionesb1">Ofertas</a><br>
+                    <a class="descripcionesb11">Tiendas Oficiales</a><br>
+                    <a class="descripcionesb1">Vender</a></li><br>
+                    <a class="descripcionesb1">Ayuda</a></li><br>
+                </div>
+                </p>
+                    <div class="barra2">
+                    <div class="hiperv1">
+                        <a class="descripciones hipervlink" href="/register">Crea tu cuenta <i class="fas fa-id-card"></i></a>
+                    </div>
+                    <div class="hiperv2">
+                        <a class="descripciones hipervlink" href="/login">Ingresa <i class="fas fa-sign-in-alt"></i></a>
+                    </div>
+                    <div class="hiperv3">
+                        <a class="descripciones hipervlink">Mis compras <i class="fas fa-shopping-basket"></i></a>  
+                    </div>
+                    </div>
+                </p>
+                </div>
+            </nav>
+            <div class="ch">
+                <i class="fas fa-bars cajahambur"></i>
+            </div>
+        </header>
+        <main class="login">
+            <form action="" method="Get">
+                <label for="nombre">Nombre y apellido:</label>
+                <input type="text" name="nombre" id="nombre"><br>
+        
+                <label for="usuario">Usuario:</label>
+                <input type="text" name="usuario" id="usuario"><br>
+        
+                <label for="fechanac">Fecha de nacimiento:</label>
+                <input type="date" name="fechanac" id="fechanac"><br>
+        
+                <label for="domicilio">Domicilio:</label>
+                <input type="text" name="domicilio" id="domicilio"><br>
+        
+                <!-- <label for="perfilu">Perfil de usuario:</label>
+                <input type="checkbox" name="perfilu" value="comprar">
+                <input type="checkbox" name="perfilu" value="vender"> -->
+                
+                <fieldset>
+                <legend>Perfil de Usuario</legend>
+                <label>
+                    <input id="perfilu" type="checkbox" name="perfilu" value="comprar" checked>Comprar
+                </label>
+                <label>
+                    <input id="perfilu" type="checkbox" name="perfilu" value="vender">Vender
+                </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Categorías de interés</legend>
+                    <label>
+                        <input id="catint" type="checkbox" name="catint" value="electro" checked>Electro
+                    </label>
+                    <label>
+                        <input id="catint" type="checkbox" name="catint" value="moda">Moda
+                    </label>
+                    <label>
+                        <input id="catint" type="checkbox" name="catint" value="hogar">Hogar
+                    </label>
+                    <label>
+                        <input id="catint" type="checkbox" name="catint" value="moda">Juguetería
+                    </label>
+                    <label>
+                        <input id="catint" type="checkbox" name="catint" value="vidasana">Vida sana
+                    </label>
+                </fieldset>
+        
+                <input type="file" name="imagenDePerfil" accept=".jpg .png" multiple>
+            </form>
+            <legend>Contraseña</legend>
+            <input type="password"> 
+            <legend>Confirmar contraseña</legend>
+            <input type="password"> 
+            <br><br>
+            <button>Guardar</button>
+            <button>Borrar</button>
+        </body>
+        </html>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
