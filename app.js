@@ -1,10 +1,11 @@
 const express = require("express")
 const app = express()
 const path = require("path")
-const PORT = 3030
+const PORT = 3001
 const public = path.join(__dirname,"/public")
 
-app.listen(PORT, ()=> console.log("servidor corriendo"))
+const port = process.env.PORT
+app.listen(port,()=>console.log("servidor corriendo en el puerto ${port}"))
 
 app.use(express.static(public))
 
