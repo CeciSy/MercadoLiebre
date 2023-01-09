@@ -4,9 +4,12 @@
         <meta charset="UTF-8">
         <title>Bienvenid@s a MercadoLiebre</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
         <link rel="stylesheet" href="css/estilos.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        rel="stylesheet" />
     </head>
     <body>
         <header>
@@ -52,59 +55,58 @@
         </header>
         <main class="login">
             <form action="" method="Get">
-                <label for="nombre">Nombre y apellido:</label>
-                <input type="text" name="nombre" id="nombre"><br>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre y apellido"><br>
         
-                <label for="usuario">Usuario:</label>
-                <input type="text" name="usuario" id="usuario"><br>
+                <input type="text" name="usuario" id="usuario" placeholder="Usuario"><br>
         
-                <label for="fechanac">Fecha de nacimiento:</label>
-                <input type="date" name="fechanac" id="fechanac"><br>
+                <input type="date" name="fechanac" id="fechanac" placeholder="Fecha de nacimiento"><br>
         
-                <label for="domicilio">Domicilio:</label>
-                <input type="text" name="domicilio" id="domicilio"><br>
+                <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio"><br>
         
                 <!-- <label for="perfilu">Perfil de usuario:</label>
                 <input type="checkbox" name="perfilu" value="comprar">
                 <input type="checkbox" name="perfilu" value="vender"> -->
                 
                 <fieldset>
-                <legend>Perfil de Usuario</legend>
-                <label>
-                    <input id="perfilu" type="checkbox" name="perfilu" value="comprar" checked>Comprar
-                </label>
-                <label>
-                    <input id="perfilu" type="checkbox" name="perfilu" value="vender">Vender
-                </label>
+                    <legend>Perfil de Usuario</legend>
+                    <div class="contcheckbox1">
+                        <label>
+                            <input id="perfilu" type="checkbox" name="perfilu" value="comprar" checked>Comprar
+                        </label>
+                        <label>
+                            <input id="perfilu" type="checkbox" name="perfilu" value="vender">Vender
+                        </label>
+                    </div>
                 </fieldset>
                 <fieldset>
                     <legend>Categorías de interés</legend>
-                    <label>
-                        <input id="catint" type="checkbox" name="catint" value="electro" checked>Electro
-                    </label>
-                    <label>
-                        <input id="catint" type="checkbox" name="catint" value="moda">Moda
-                    </label>
-                    <label>
-                        <input id="catint" type="checkbox" name="catint" value="hogar">Hogar
-                    </label>
-                    <label>
-                        <input id="catint" type="checkbox" name="catint" value="moda">Juguetería
-                    </label>
-                    <label>
-                        <input id="catint" type="checkbox" name="catint" value="vidasana">Vida sana
-                    </label>
+                    <div class="contcheckbox2">
+                        <label>
+                            <input id="catint" type="checkbox" name="catint" value="electro" checked>Electro
+                        </label>
+                        <label>
+                            <input id="catint" type="checkbox" name="catint" value="moda">Moda
+                        </label>
+                        <label>
+                            <input id="catint" type="checkbox" name="catint" value="hogar">Hogar
+                        </label>
+                        <label>
+                            <input id="catint" type="checkbox" name="catint" value="moda">Juguetería
+                        </label>
+                        <label>
+                            <input id="catint" type="checkbox" name="catint" value="vidasana">Vida sana
+                        </label>
                 </fieldset>
-        
-                <input type="file" name="imagenDePerfil" accept=".jpg .png" multiple>
+                <legend>Imagen de perfil</legend>
+                <div class="imgperfcont">
+                    <input class="imgperf" type="file" name="imagenDePerfil" accept=".jpg .png" multiple placeholder="Imagen de perfil">
+                </div>
             </form>
-            <legend>Contraseña</legend>
-            <input type="password"> 
-            <legend>Confirmar contraseña</legend>
-            <input type="password"> 
+            <input type="password" placeholder="Contraseña"> 
+            <input type="password" placeholder="Confirmar contraseña"> 
             <br><br>
-            <button>Guardar</button>
-            <button>Borrar</button>
+            <button class="guardar">Guardar</button>
+            <button class="borrar">Borrar</button>
         </body>
         </html>
         </main>

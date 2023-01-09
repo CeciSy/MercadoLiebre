@@ -1,149 +1,157 @@
 header {background-color: #EAC926; font-family: 'roboto';
-        display: flex; flex-wrap: wrap;
+    display: flex; flex-wrap: wrap;
 }
+input{width:75%;margin-top: 5px; padding: 3px}
+.enviar{background-color: #666; width:25%; height:30px; color:white; margin-top: 10px;}
+.contcheckbox1{display:flex; flex-wrap:wrap; justify-content: center; gap: 60px}
+.contcheckbox2{display:flex; flex-wrap:wrap; justify-content: space-between;}
+.imgperfcont{display:flex; flex-wrap:wrap; justify-content: space-around;}
+.imgperf{text-align: center; width:33%}
+button{width:60px; background-color: #666; height:30px; color:white; margin-top: 10px; margin-bottom:10px;
+    border-radius: 5%;}
 .fiestas{align-items: flex-end;}
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'roboto';
-  } 
-  .gris-claro{background-color:#ebebeb}
-  .amarillo{color:#EAC926}
-  .verde{color: #39b54a;}
-  .azul{color:#03264C}
-  .gris-oscuro{background-color:#666}
-  .celeste{color:#1259c3}
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'roboto';
+} 
+.gris-claro{background-color:#ebebeb}
+.amarillo{color:#EAC926}
+.verde{color: #39b54a;}
+.azul{color:#03264C}
+.gris-oscuro{background-color:#666}
+.celeste{color:#1259c3}
 
-  .cuerpo{font-size: 12px;}
-  .ultvofertas{font-size: 24px;}
-  .precios{font-size: 17px;}
-  .descuentos{font-size: 14px; color:#39b54a}
-  .descripciones{font-size: 16px;}
-  .descripcionbb{font-size: 16px;}
-  .descripcionesb1{font-size: 16px;}
-  .descripcionesb11{font-size: 16px;}
+.cuerpo{font-size: 12px;}
+.ultvofertas{font-size: 24px;}
+.precios{font-size: 17px;}
+.descuentos{font-size: 14px; color:#39b54a}
+.descripciones{font-size: 16px;}
+.descripcionbb{font-size: 16px;}
+.descripcionesb1{font-size: 16px;}
+.descripcionesb11{font-size: 16px;}
 
-  .whitebackground{
-    background-color: white; border: black solid 1px; margin: 2em 0.5em 0.5em 0.5em;
-    border-radius: 5px; 
-    width:125%
-  }
+.whitebackground{
+background-color: white; border: black solid 1px; margin: 2em 0.5em 0.5em 0.5em;
+border-radius: 5px; 
+width:125%
+}
 
-  .wbnb{background-color: white; margin: 2.75em 0.5em 0.5em 0.5em;
-    width:12em;
-    /* border-radius: 50%; */
-    height:5em;
-    padding: 1em}
+.wbnb{background-color: white; margin: 2.75em 0.5em 0.5em 0.5em;
+width:12em;
+/* border-radius: 50%; */
+height:5em;
+padding: 1em}
 
 .logo{
-    width: 100%;
+width: 100%;
 }
 .contlog{
-    width: 40%;
-    display: flex;
-    align-items: stretch;
-    margin-top: 1%;
-    margin-left: 2%
+width: 40%;
+display: flex;
+align-items: stretch;
+margin-top: 1%;
+margin-left: 2%
 }
 
 .bb{
-    width:58%;
-    border-radius: 10%;
-    height:10%;
-    text-align: center;
+width:58%;
+border-radius: 10%;
+height:10%;
+text-align: center;
 }
 
 .fa-search{
-    width:4%;
-    text-align: center;
-    font-size: small;
+width:4%;
+text-align: center;
+font-size: small;
 }
 
 .fa-hand-holding-usd{
-    width:5%
+width:5%
 }
 
 h4{
-    width:60%
+width:60%
 }
 
 .descripcioncct{
-    color: black;
-    text-decoration: none;
-    font-size: 3.5vw;
-    text-align: center;
-    width: 100%
+color: black;
+text-decoration: none;
+font-size: 3.5vw;
+text-align: center;
+width: 100%
 }
 .descripciones{
-    color: black;
-    text-decoration: none;
-    font-size: 16px;
+color: black;
+text-decoration: none;
+font-size: 16px;
 }
 
 .contnav{
-    margin-left: 2%
+margin-left: 2%
 }
 .precios{
-    width: 27%;
+width: 27%;
 }
 
 .descuentos{
-    width: 73%;
-    text-align: right;
-    }
+width: 73%;
+text-align: right;
+}
 
 .descripcionart{
-    color: black;
-    text-decoration: none;
-    font-size: 14px;
-    opacity: 0%;
-    transition: opacity 2ms;
+color: black;
+text-decoration: none;
+font-size: 14px;
+opacity: 0%;
+transition: opacity 2ms;
 }
 
 .descripcionart:hover{
-    opacity: 100%;
+opacity: 100%;
 }
 
 .hiperv1{
-    position:relative
+position:relative
 }
 .hiperv2{
-    position:relative
+position:relative
 }
 .hiperv3{
-    position:relative
+position:relative
 }
 .ch{
-    position:relative;
-    padding-bottom: 2em;
-    padding-top: 2em;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%
+position:relative;
+padding-bottom: 2em;
+padding-top: 2em;
+display: flex;
+flex-wrap: wrap;
+width: 100%
 }
 
 .hipervlink{
-    width: 80%;
+width: 80%;
 }
 .cajahambur{
-    text-align: center;
-    background-color: #1259c3;
-    width: 2em;
-    border-radius: 10%;
-    color:#ebebeb;
-    padding: 10px 10px 5px 10px;
-    position:relative;
-    right:-45%;
-    display: flex;
-    justify-content: center
+text-align: center;
+background-color: #1259c3;
+width: 2em;
+border-radius: 10%;
+color:#ebebeb;
+padding: 10px 10px 5px 10px;
+position:relative;
+right:-45%;
+display: flex;
+justify-content: center
 }
 main{
-    text-align: center;
-    width:90%;
-    position:relative;
-    left:5%;
-    background-color: #ebebeb;
+text-align: center;
+width:90%;
+position:relative;
+left:5%;
+background-color: #ebebeb;
 }
 
 h2{font-size: 135%;
@@ -152,65 +160,65 @@ padding-top: 1em;
 width:100%}
 
 .detalleprod{
-    background-color:white;
-    /* border-left: solid 0.75em #ebebeb;
-    border-right: solid 0.75em #ebebeb; */
-    /* border-bottom: solid 1em #ebebeb; */
-    border-top: solid 0.1vw #ebebeb;
-    text-align: left;
-    padding: 0.5em 2em 0em 0.5em;
-    /*width:100%;
-    /* display: block;    */
-    display: flex;
-    flex-wrap: wrap;
-    /* padding-bottom: 30px; */
-    box-sizing: border-box;
+background-color:white;
+/* border-left: solid 0.75em #ebebeb;
+border-right: solid 0.75em #ebebeb; */
+/* border-bottom: solid 1em #ebebeb; */
+border-top: solid 0.1vw #ebebeb;
+text-align: left;
+padding: 0.5em 2em 0em 0.5em;
+/*width:100%;
+/* display: block;    */
+display: flex;
+flex-wrap: wrap;
+/* padding-bottom: 30px; */
+box-sizing: border-box;
 }
 
 .imgprod{
-    width:100%;
+width:100%;
 }
 
 .producto{
-    position: relative;
-    box-sizing: border-box;
-    margin-left: 2px;
-    background-color: white;
-    margin-bottom: 5px;
-    transition: shadow 2ms;
+position: relative;
+box-sizing: border-box;
+margin-left: 2px;
+background-color: white;
+margin-bottom: 5px;
+transition: shadow 2ms;
 }
 
 .producto:hover{box-shadow: 0px 0px 10px rgb(100,100,100)}
 
 .fa-truck{
-    text-align: right; 
-    display: block;
-    font-size: 16px;
-    padding: 5px;
-    width: 30px;
-    height: 30px;
-    border: 1px solid #39b54a;
-    background-color: #FFF;
-    border-radius: 50%;
-    transition: transform .7s ease-in-out
+text-align: right; 
+display: block;
+font-size: 16px;
+padding: 5px;
+width: 30px;
+height: 30px;
+border: 1px solid #39b54a;
+background-color: #FFF;
+border-radius: 50%;
+transition: transform .7s ease-in-out
 }
 
 .camion{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    flex-direction: row-reverse;
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+flex-direction: row-reverse;
 }
 
 .fa-truck:hover{transform: rotate(270deg)}
 
 footer{
-    width: 90%;
-    text-align: center;
-    margin-left: 5%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+width: 90%;
+text-align: center;
+margin-left: 5%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
 }
 
 h3{font-size: 18px}
@@ -218,99 +226,101 @@ h3{font-size: 18px}
 .artfooter{width: 32%}
 
 .iconblue{
-    color:#1259c3;
-    font-size: 2em;
-    padding-bottom: 10px;
+color:#1259c3;
+font-size: 2em;
+padding-bottom: 10px;
 }
 
 .copyright{
-    /* position:relative;
-    left:-120px; */
-    font-size: 12px;
-    justify-self: flex-start;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-right: 120px;
-    width: 100%
+/* position:relative;
+left:-120px; */
+font-size: 12px;
+justify-self: flex-start;
+margin-top: 20px;
+margin-bottom: 10px;
+margin-right: 120px;
+width: 100%
 }
 
 body{
-    background: #ebebeb
+background: #ebebeb
 }
 
 /* FORMULARIOS */
-.enviar:hover{background-color: #0022AA;}
+button:hover{background-color: #0022AA;}
 
 
 /* MEDIA QUERIES */
 @media (max-width: 460px){
-    /* div.descripcionart{display:none} */
-    nav{display:none};
-    div.fiestas{display:none}
-    img.ffiestas{display:none}}
-    article.artfooter{width:55%; margin-top: 20px}
+/* div.descripcionart{display:none} */
+nav{display:none};
+div.fiestas{display:none}
+img.ffiestas{display:none}}
+article.artfooter{width:55%; margin-top: 20px}
 @media (min-width: 460px){
-    .header{display: flex;
-            flex-wrap: wrap;
-        align-items: center}
-    div.contlog{width: 30%}
-    div.bb{width: 27%;
-    align-self:baseline}
-    .whitebackground{width: 283%}
-    .descripcionbb{font-size: 2vw;}
-    div.descripcioncct{width: 39%;
-    font-size: 2vw; align-self: baseline;
-    font-style: bold;}
-    nav{width: 100%}
-    div.barras{display: flex;
-               flex-wrap: wrap;}
-    div.barra1{display: flex;
-               flex-wrap: wrap;
-               width: 40%;
-               justify-content: space-around;}
-    div.barra2{display: flex;
-               flex-wrap: wrap;
-               width: 55%;
-               justify-content: space-around;}
-    a.descripcionesb1{width:10%;
-                        justify-content: space-around;
-                        font-size: 1.8vw;
-                        text-align: center;}
-    a.descripcionesb11{width:38%;
-                        justify-content: space-around;
-                        font-size: 1.8vw;
-                        text-align: center}
-    div.hiperv1{width: 30%; display: flex; flex-wrap: wrap; justify-content: space-around; text-align: center}
-    div.hiperv2{width: 25%; display: flex; flex-wrap: wrap; justify-content: space-around; text-align: center}
-    div.hiperv3{width: 40%; display: flex; flex-wrap: wrap; justify-content: space-around; text-align: center}
-    a.hipervlink{width: 95%;
-                 font-size: 1.8vw}
-    div.iconito{width: 5%;
-                font-size: 2vw}
-    div.principal{display: flex;
-               flex-wrap: wrap;
-               justify-content: space-around;
+.header{display: flex;
+        flex-wrap: wrap;
+    align-items: center}
+div.contlog{width: 30%}
+div.bb{width: 27%;
+align-self:baseline}
+.whitebackground{width: 283%}
+.descripcionbb{font-size: 2vw;}
+div.descripcioncct{width: 39%;
+font-size: 2vw; align-self: baseline;
+font-style: bold;}
+nav{width: 100%}
+div.barras{display: flex;
+           flex-wrap: wrap;}
+div.barra1{display: flex;
+           flex-wrap: wrap;
+           width: 50%;
+           justify-content: space-around;}
+div.barra2{display: flex;
+           flex-wrap: wrap;
+           width: 50%;
+           justify-content: space-around;}
+a.descripcionesb1{width:20%;
+                    justify-content: space-around;
+                    /* font-size: 1.8vw; */
+                    font-size: 12px;
+                    text-align: center;}
+a.descripcionesb11{width:30%;
+                    justify-content: space-around;
+                    /* font-size: 1.8vw; */
+                    font-size: 12px;
+                    text-align: center}
+div.hiperv1{width: 30%; display: flex; flex-wrap: wrap; justify-content: space-around; text-align: center}
+div.hiperv2{width: 25%; display: flex; flex-wrap: wrap; justify-content: space-around; text-align: center}
+div.hiperv3{width: 40%; display: flex; flex-wrap: wrap; justify-content: space-around; text-align: center}
+a.hipervlink{width: 95%;
+             /* font-size: 1.8vw */ font-size: 12px}
+div.iconito{width: 5%;
+            font-size: 2vw}
+div.principal{display: flex;
+           flex-wrap: wrap;
+           justify-content: space-around;
+        }
+div.fiestas{    width: 100%;
+    display: flex;
+    align-items: stretch;
+    /*position:relative; left:-110px;*/
+    flex-wrap: wrap}
+img.ffiestas{width: 100%; justify-self: left}
+article.producto{
+            width:45%}
+.descripcionart{
+                /* opacity: 100% */
             }
-    div.fiestas{    width: 100%;
-        display: flex;
-        align-items: stretch;
-        /*position:relative; left:-110px;*/
-        flex-wrap: wrap}
-    img.ffiestas{width: 100%; justify-self: left}
-    article.producto{
-                width:45%}
-    .descripcionart{
-                    /* opacity: 100% */
-                }
-    article.artfooter{width:30%; margin-top: 20px}
-    }
+article.artfooter{width:30%; margin-top: 20px}
+}
 @media (min-width: 769px){
-    .principal{display: flex;
-               flex-wrap: wrap}
-    article.producto{
-        box-shadow: 0px 0px 10px rgb(100,100,100);
-                    width:21%}
-    div.ch{display:none}
-    div.precios{width: 53%}
-    div.descuentos{width: 37%}
+.principal{display: flex;
+           flex-wrap: wrap}
+article.producto{
+    box-shadow: 0px 0px 10px rgb(100,100,100);
+                width:21%}
+div.ch{display:none}
+div.precios{width: 53%}
+div.descuentos{width: 37%}
 }
